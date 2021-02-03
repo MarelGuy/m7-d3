@@ -26,10 +26,10 @@ class Home extends Component {
                             .then(async (res) => {
                                 console.log(res)
                             })
-                        // .then(result => {
-                        //     this.setState({ result: this.data })
-                        //     console.log(result)
-                        // })
+                            .then(result => {
+                                this.setState({ result: this.data })
+                                console.log(result)
+                            })
                     }
                 }>Submit</Button>
             </Container >
